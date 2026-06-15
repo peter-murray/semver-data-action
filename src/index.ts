@@ -1,5 +1,5 @@
 import * as core from '@actions/core';
-import { generateSemvers } from './semver';
+import { generateSemvers } from './semver.js';
 
 async function run() {
   try {
